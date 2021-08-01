@@ -1,0 +1,55 @@
+.message_holder{
+    padding-right: 9%;
+    padding-left: 9%;
+    max-width: 400px;
+    margin-bottom: 20px;
+    display: flex;
+    line-height: 19px;
+}
+
+.message_in{
+    background-color: #262d31 ;
+    padding: 6px 25px 8px 9px;
+    border-bottom-left-radius: 10px;
+    max-width: 100%;
+    overflow-wrap: break-word;
+}
+.timeCode_in{
+    background-color: #262d31;
+    color: #f1f1f2a1 ;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    font-size: 0.7em;
+    padding-right: 5px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+
+.message_out{
+    background-color: #056162 ;
+    padding: 6px 15px 8px 9px;
+    border-radius: 10px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    max-width: 100%;
+    overflow-wrap: break-word;
+}
+
+.timeCode_out{
+    background-color: #056162;
+    color: #f1f1f2a1;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    font-size: 0.7em;
+    padding-right: 5px;
+    border-bottom-right-radius: 10px;
+}
+
+
+.triangle{
+    position: relative;
+    top: -1.7px;
+}
